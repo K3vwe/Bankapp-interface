@@ -1,0 +1,82 @@
+.main-top {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    grid-gap: 20px;
+    margin-top: 25px;
+}
+.main-account p {
+    display: inline;
+}
+.top1 {
+    grid-column: 1/2;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+}
+.account-details {
+    display: flex;
+    justify-content: space-between;
+}
+.sec {
+    color: var(--secondary);
+}
+h2 > .sec {
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: .8em;
+}
+.arrow {
+    color: var(--primary);
+    margin-left: 10px;
+}
+.process {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.process > a {
+    color: var(--white);
+}
+.transact {
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #0088dd;
+    color: var(--white);
+}
+.funds {
+    margin-right: 50px;
+    text-align: right;
+}
+.top2 {
+    grid-column: 2/3;
+    background-color: #0088dd;
+    border-radius: 10px;
+}
+.standard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.standard-info {
+    color: var(--white);
+
+}.standard-info > .message {
+    margin-bottom: 35px;
+}
+.standard-info p> a {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    align-self: flex-end;
+}
+.track {
+    align-self: flex-end;
+}
+.track > img {
+    border-radius: 20%;
+}

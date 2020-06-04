@@ -1,0 +1,48 @@
+.main-middle {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+}
+.san {
+    grid-column: 1/2;
+}
+.citi {
+    grid-column: 2/3;
+}
+.deut {
+    grid-column: 3/4;
+}
+.agrico{
+    grid-column: 4/5;
+}
+.transactions {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px 15px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+.bank-name > h2 {
+    font-size: 1em;
+}
+.copy {
+    color: #d1d1d1;
+}
+.bank-name p {
+    display: inline;
+    color: #d1d1d1;
+    font-size: .8em;
+}
+.bank-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+.bank-logo > img {
+    align-self: flex-start;
+    position: relative;
+    bottom: 8px;
+}
